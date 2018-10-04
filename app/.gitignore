@@ -1,0 +1,6 @@
+/build
+/production
+/staging
+/release
+/debug
+google-services.json

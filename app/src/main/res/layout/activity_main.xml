@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".feature.MainActivity">
+
+    <Button
+        android:id="@+id/labelingBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ML image labeling" />
+
+    <Button
+        android:id="@+id/labelRecognitionStream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="label stream"/>
+
+    <Button
+        android:id="@+id/textRecognitionBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ML text recognition" />
+
+    <Button
+        android:id="@+id/faceRecogniotionBr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Face recognition"/>
+
+    <Button
+        android:id="@+id/landmarksRecogniotionBr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="landmarks recognition"/>
+
+    <Button
+        android:id="@+id/barcodeRecogniotionBr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="barcode recognition"/>
+
+    <Button
+        android:id="@+id/customModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Custom model"/>
+</LinearLayout>
